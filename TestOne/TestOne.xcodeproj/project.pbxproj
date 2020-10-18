@@ -1,0 +1,687 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CBB95D3C22EC741F001FA3CB /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CBB95D3B22EC741F001FA3CB /* main.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CBB95D3622EC741F001FA3CB /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		CB0DFECF2339B97600F5CDDF /* 由前序遍历和中序遍历构造二叉树.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "由前序遍历和中序遍历构造二叉树.h"; sourceTree = "<group>"; };
+		CB0DFED02339F16200F5CDDF /* MaxArea.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MaxArea.h; sourceTree = "<group>"; };
+		CB0DFED6233C8D6D00F5CDDF /*  买卖股票的最佳时机1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = " 买卖股票的最佳时机1.h"; sourceTree = "<group>"; };
+		CB0DFED7233CA02E00F5CDDF /*  买卖股票的最佳时机2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = " 买卖股票的最佳时机2.h"; sourceTree = "<group>"; };
+		CB0DFED8233DA76C00F5CDDF /*  买卖股票的最佳时机3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = " 买卖股票的最佳时机3.h"; sourceTree = "<group>"; };
+		CB0DFEDA2340848600F5CDDF /* 150. 逆波兰表达式求值.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "150. 逆波兰表达式求值.h"; sourceTree = "<group>"; };
+		CB0EE3A824A846F50035D8BD /* 72. 编辑距离.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "72. 编辑距离.h"; sourceTree = "<group>"; };
+		CB0EE3A924A848600035D8BD /* 198. 打家劫舍.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "198. 打家劫舍.h"; sourceTree = "<group>"; };
+		CB0EE3AA24A8565F0035D8BD /* 213. 打家劫舍 II.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "213. 打家劫舍 II.h"; sourceTree = "<group>"; };
+		CB0EE3AB24A85C060035D8BD /* 337. 打家劫舍 III.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "337. 打家劫舍 III.h"; sourceTree = "<group>"; };
+		CB0EE3AC24A874250035D8BD /* 53. 最大子序和.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "53. 最大子序和.h"; sourceTree = "<group>"; };
+		CB0EE3AD24A888E30035D8BD /* 322. 零钱兑换.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "322. 零钱兑换.h"; sourceTree = "<group>"; };
+		CB0EE3AE24A894770035D8BD /* 221. 最大正方形.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "221. 最大正方形.h"; sourceTree = "<group>"; };
+		CB0EE3AF24A9EBD90035D8BD /* 475. 供暖器.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "475. 供暖器.h"; sourceTree = "<group>"; };
+		CB0EE3B024A9F6000035D8BD /* 441. 排列硬币.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "441. 排列硬币.h"; sourceTree = "<group>"; };
+		CB0EE3B124AA14A60035D8BD /* 349. 两个数组的交集.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "349. 两个数组的交集.h"; sourceTree = "<group>"; };
+		CB0EE3B224AA1B180035D8BD /* 350. 两个数组的交集 II.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "350. 两个数组的交集 II.h"; sourceTree = "<group>"; };
+		CB0EE3B324AA213A0035D8BD /* 121. 买卖股票的最佳时机.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "121. 买卖股票的最佳时机.h"; sourceTree = "<group>"; };
+		CB0EE3B424AA28A90035D8BD /* 122. 买卖股票的最佳时机 II.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "122. 买卖股票的最佳时机 II.h"; sourceTree = "<group>"; };
+		CB0EE3B524AA2D170035D8BD /* 123. 买卖股票的最佳时机 III.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "123. 买卖股票的最佳时机 III.h"; sourceTree = "<group>"; };
+		CB0EE3B624ACD82A0035D8BD /* 62把一个字符串转换成整数.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "62把一个字符串转换成整数.h"; sourceTree = "<group>"; };
+		CB0EE3B724ACDF8A0035D8BD /* 63设计一个单例.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "63设计一个单例.h"; sourceTree = "<group>"; };
+		CB44377624C3F80A00F3C97D /* 64. 最长不含重复字符的子字符串----.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "64. 最长不含重复字符的子字符串----.h"; sourceTree = "<group>"; };
+		CB44377724C4107F00F3C97D /*  65队列的最大值.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = " 65队列的最大值.h"; sourceTree = "<group>"; };
+		CB4F774A2498F3A400B31990 /* 11二进制中1的个数.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "11二进制中1的个数.h"; sourceTree = "<group>"; };
+		CB4F774B2498FAF400B31990 /* 12数值的整数次方.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "12数值的整数次方.h"; sourceTree = "<group>"; };
+		CB4F774C2498FEB000B31990 /* 13调整数组顺序使奇数位于偶数前面.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "13调整数组顺序使奇数位于偶数前面.h"; sourceTree = "<group>"; };
+		CB4F774D2498FFEF00B31990 /* 14链表中倒数第k个结点.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "14链表中倒数第k个结点.h"; sourceTree = "<group>"; };
+		CB4F774E2499048400B31990 /* 15反转链表.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "15反转链表.h"; sourceTree = "<group>"; };
+		CB4F774F24990F6200B31990 /* 16合并两个排序的链表.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "16合并两个排序的链表.h"; sourceTree = "<group>"; };
+		CB4F7750249913F800B31990 /* 17树的子结构.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "17树的子结构.h"; sourceTree = "<group>"; };
+		CB4F77512499189F00B31990 /* 18二叉树的镜像.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "18二叉树的镜像.h"; sourceTree = "<group>"; };
+		CB4F775224991C0600B31990 /* 19顺时针打印矩阵.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "19顺时针打印矩阵.h"; sourceTree = "<group>"; };
+		CB4F77532499249D00B31990 /* 20包含min函数的栈.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "20包含min函数的栈.h"; sourceTree = "<group>"; };
+		CB4F77542499276D00B31990 /* 21栈的压入、弹出序列.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "21栈的压入、弹出序列.h"; sourceTree = "<group>"; };
+		CB4F77552499C71000B31990 /* 22从上往下打印二叉树.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "22从上往下打印二叉树.h"; sourceTree = "<group>"; };
+		CB4F77562499D1F100B31990 /* 23从上到下打印二叉树 II.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "23从上到下打印二叉树 II.h"; sourceTree = "<group>"; };
+		CB4F77572499D81700B31990 /* 24从上到下打印二叉树 III.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "24从上到下打印二叉树 III.h"; sourceTree = "<group>"; };
+		CB4F77582499DE9C00B31990 /* 25二叉搜索树的后序遍历序列.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "25二叉搜索树的后序遍历序列.h"; sourceTree = "<group>"; };
+		CB4F77592499FDEA00B31990 /* 26二叉树中和为某一值的路径.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "26二叉树中和为某一值的路径.h"; sourceTree = "<group>"; };
+		CB4F775A249A0AA400B31990 /* 27数组中出现次数超过一半的数字.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "27数组中出现次数超过一半的数字.h"; sourceTree = "<group>"; };
+		CB4F775B249A0E8500B31990 /* 28连续子数组的最大和.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "28连续子数组的最大和.h"; sourceTree = "<group>"; };
+		CB4F775C249A498800B31990 /* 29丑数.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "29丑数.h"; sourceTree = "<group>"; };
+		CB4F775D249B35B500B31990 /* 30两个链表的第一个公共结点.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "30两个链表的第一个公共结点.h"; sourceTree = "<group>"; };
+		CB4F775E249B3B6E00B31990 /* 31二叉树的深度.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "31二叉树的深度.h"; sourceTree = "<group>"; };
+		CB4F775F249B42C600B31990 /* 32平衡二叉树.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "32平衡二叉树.h"; sourceTree = "<group>"; };
+		CB4F7760249B444000B31990 /* 33数组中只出现一次的数字.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "33数组中只出现一次的数字.h"; sourceTree = "<group>"; };
+		CB4F7761249B4E1500B31990 /* 34和为S的连续正数序列.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "34和为S的连续正数序列.h"; sourceTree = "<group>"; };
+		CB4F7762249B559100B31990 /* 35和为S的两个数字.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "35和为S的两个数字.h"; sourceTree = "<group>"; };
+		CB4F7763249B5F4900B31990 /* 36左旋转字符串.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "36左旋转字符串.h"; sourceTree = "<group>"; };
+		CB4F7764249B691900B31990 /* 37翻转单词顺序列.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "37翻转单词顺序列.h"; sourceTree = "<group>"; };
+		CB4F7765249B6BD400B31990 /* 38不用加减乘除做加法.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "38不用加减乘除做加法.h"; sourceTree = "<group>"; };
+		CB4F7766249B708700B31990 /* 39数组中重复的数字.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "39数组中重复的数字.h"; sourceTree = "<group>"; };
+		CB4F7767249B90E800B31990 /* 40链表中环的入口结点.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "40链表中环的入口结点.h"; sourceTree = "<group>"; };
+		CB4F7768249BA79700B31990 /* 41二叉树的下一个结点.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "41二叉树的下一个结点.h"; sourceTree = "<group>"; };
+		CB4F7769249BAB5200B31990 /* 42对称的二叉树.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "42对称的二叉树.h"; sourceTree = "<group>"; };
+		CB4F776A249C74B700B31990 /* 43最小的K个数.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "43最小的K个数.h"; sourceTree = "<group>"; };
+		CB4F776B249CAB6900B31990 /* 44删除链表中重复的结点.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "44删除链表中重复的结点.h"; sourceTree = "<group>"; };
+		CB4F776C249CC01200B31990 /* 45字符流中第一个不重复的字符.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "45字符流中第一个不重复的字符.h"; sourceTree = "<group>"; };
+		CB4F776D249CC63600B31990 /* 46第一个只出现一次的字符.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "46第一个只出现一次的字符.h"; sourceTree = "<group>"; };
+		CB4F776E249CDA2A00B31990 /* 47把数组排成最小的数.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "47把数组排成最小的数.h"; sourceTree = "<group>"; };
+		CB4F776F249CE2CE00B31990 /* 48把字符串转换成整数.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "48把字符串转换成整数.h"; sourceTree = "<group>"; };
+		CB4F7770249CE92800B31990 /* 49求1+2+3+...+n.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "49求1+2+3+...+n.h"; sourceTree = "<group>"; };
+		CB4F7771249CE9FF00B31990 /* 50二叉搜索树的第k个结点***.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "50二叉搜索树的第k个结点***.h"; sourceTree = "<group>"; };
+		CB4F7772249D069400B31990 /* 51构建乘积数组.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "51构建乘积数组.h"; sourceTree = "<group>"; };
+		CB4F7773249DB36B00B31990 /* 52扑克牌顺子.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "52扑克牌顺子.h"; sourceTree = "<group>"; };
+		CB4F7774249DBE1F00B31990 /* 53约瑟夫环问题.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "53约瑟夫环问题.h"; sourceTree = "<group>"; };
+		CB4F7775249DDB0400B31990 /* 54滑动窗口的最大值.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "54滑动窗口的最大值.h"; sourceTree = "<group>"; };
+		CB4F7776249DE6A000B31990 /* 55剪绳子.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "55剪绳子.h"; sourceTree = "<group>"; };
+		CB4F7777249DF39700B31990 /* 56矩阵中的路径(回溯法)***.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "56矩阵中的路径(回溯法)***.h"; sourceTree = "<group>"; };
+		CB4F780724A3690300B31990 /* 57复杂链表的复制.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "57复杂链表的复制.h"; sourceTree = "<group>"; };
+		CB4F780824A3727500B31990 /* 58二叉搜索树与双向链表---***.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "58二叉搜索树与双向链表---***.h"; sourceTree = "<group>"; };
+		CB4F780924A393D000B31990 /* 59数字在排序数组中出现的次数.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "59数字在排序数组中出现的次数.h"; sourceTree = "<group>"; };
+		CB4F780A24A39CD700B31990 /* 60机器人的运动范围.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "60机器人的运动范围.h"; sourceTree = "<group>"; };
+		CB4F780B24A3A68400B31990 /* 61数据流中的中位数.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "61数据流中的中位数.h"; sourceTree = "<group>"; };
+		CB4F780F24A63E6E00B31990 /* <位运算>m的n次方.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "<位运算>m的n次方.h"; sourceTree = "<group>"; };
+		CB4F781024A79AF500B31990 /* 5. 最长回文子串(leecode).h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "5. 最长回文子串(leecode).h"; sourceTree = "<group>"; };
+		CB4F781224A7ACD200B31990 /* 20. 有效的括号(leecode).h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "20. 有效的括号(leecode).h"; sourceTree = "<group>"; };
+		CB4F781324A82D4900B31990 /* 62. 机器人的不同路径.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "62. 机器人的不同路径.h"; sourceTree = "<group>"; };
+		CB4F781424A8350600B31990 /* 64. 最小路径和.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "64. 最小路径和.h"; sourceTree = "<group>"; };
+		CB68BD9824C837560041FB89 /* 146 LRU缓存机制.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "146 LRU缓存机制.h"; sourceTree = "<group>"; };
+		CB6DC35024D94E4B009D3318 /* 2. 两数相加.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "2. 两数相加.h"; sourceTree = "<group>"; };
+		CB6DC35124D98729009D3318 /* 199. 二叉树的右视图.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "199. 二叉树的右视图.h"; sourceTree = "<group>"; };
+		CB6DC35224D9950C009D3318 /* 189. 旋转数组.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "189. 旋转数组.h"; sourceTree = "<group>"; };
+		CB6DC35324D997A5009D3318 /* 187. 重复的DNA序列.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "187. 重复的DNA序列.h"; sourceTree = "<group>"; };
+		CB6DC35424D99804009D3318 /* 179. 最大数.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "179. 最大数.h"; sourceTree = "<group>"; };
+		CB6DC35524D99ABE009D3318 /* 172. 阶乘后的零.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "172. 阶乘后的零.h"; sourceTree = "<group>"; };
+		CB6DC35624D99EE0009D3318 /* 171. Excel表列序号.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "171. Excel表列序号.h"; sourceTree = "<group>"; };
+		CB6DC35724D99F60009D3318 /* 168. Excel表列名称.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "168. Excel表列名称.h"; sourceTree = "<group>"; };
+		CB6DC35824D9A710009D3318 /* 165. 比较版本号.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "165. 比较版本号.h"; sourceTree = "<group>"; };
+		CB6DC35924D9AB11009D3318 /* 162. 寻找峰值.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "162. 寻找峰值.h"; sourceTree = "<group>"; };
+		CB6DC35A24D9AB47009D3318 /* 160. 相交链表.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "160. 相交链表.h"; sourceTree = "<group>"; };
+		CB6DC35B24D9AE1A009D3318 /* 153. 寻找旋转排序数组中的最小值(重点问题).h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "153. 寻找旋转排序数组中的最小值(重点问题).h"; sourceTree = "<group>"; };
+		CB6DC35C24DA5909009D3318 /* 110. 平衡二叉树.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "110. 平衡二叉树.h"; sourceTree = "<group>"; };
+		CB6DC35D24DA6867009D3318 /* 66. 加一.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "66. 加一.h"; sourceTree = "<group>"; };
+		CB6DC35E24DA712C009D3318 /* 67. 二进制求和.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "67. 二进制求和.h"; sourceTree = "<group>"; };
+		CB6DC35F24DA72E3009D3318 /* 69. x 的平方根.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "69. x 的平方根.h"; sourceTree = "<group>"; };
+		CB6DC36024DAD8E4009D3318 /* 206. 反转链表.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "206. 反转链表.h"; sourceTree = "<group>"; };
+		CB6DC36124DC369C009D3318 /* 实现hash函数.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "实现hash函数.h"; sourceTree = "<group>"; };
+		CB6DC36224DE88BE009D3318 /* 529. 扫雷游戏.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "529. 扫雷游戏.h"; sourceTree = "<group>"; };
+		CB6DC36324DEF258009D3318 /* 109. 有序链表转换二叉搜索树.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "109. 有序链表转换二叉搜索树.h"; sourceTree = "<group>"; };
+		CB6DC36424DEF2F6009D3318 /* 108. 将有序数组转换为二叉搜索树.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "108. 将有序数组转换为二叉搜索树.h"; sourceTree = "<group>"; };
+		CB6DC36524DEF42E009D3318 /* 107. 二叉树的层次遍历 II.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "107. 二叉树的层次遍历 II.h"; sourceTree = "<group>"; };
+		CB6DC36624DEF442009D3318 /* 106. 从中序与后序遍历序列构造二叉树.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "106. 从中序与后序遍历序列构造二叉树.h"; sourceTree = "<group>"; };
+		CB6DC36724DEF459009D3318 /* 105. 从前序与中序遍历序列构造二叉树.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "105. 从前序与中序遍历序列构造二叉树.h"; sourceTree = "<group>"; };
+		CB6DC36824DEF467009D3318 /* 104. 二叉树的最大深度.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "104. 二叉树的最大深度.h"; sourceTree = "<group>"; };
+		CB6DC36924DEF47E009D3318 /* 103. 二叉树的锯齿形层次遍历.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "103. 二叉树的锯齿形层次遍历.h"; sourceTree = "<group>"; };
+		CB6DC36A24DEF494009D3318 /* 102. 二叉树的层序遍历.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "102. 二叉树的层序遍历.h"; sourceTree = "<group>"; };
+		CB6DC36B24DEF4AC009D3318 /* 101. 对称二叉树.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "101. 对称二叉树.h"; sourceTree = "<group>"; };
+		CB6DC36C24DEF6C4009D3318 /* 111. 二叉树的最小深度.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "111. 二叉树的最小深度.h"; sourceTree = "<group>"; };
+		CB6DC36D24DEF9B4009D3318 /* 112. 路径总和.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "112. 路径总和.h"; sourceTree = "<group>"; };
+		CB6DC36E24DF0669009D3318 /* 113. 路径总和 II.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "113. 路径总和 II.h"; sourceTree = "<group>"; };
+		CB896C2924DF95F800E192A0 /* 114. 二叉树展开为链表.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "114. 二叉树展开为链表.h"; sourceTree = "<group>"; };
+		CB896C2A24DF9D6800E192A0 /* 144. 二叉树的前序遍历.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "144. 二叉树的前序遍历.h"; sourceTree = "<group>"; };
+		CB896C2B24DF9F6000E192A0 /* 145. 二叉树的后序遍历.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "145. 二叉树的后序遍历.h"; sourceTree = "<group>"; };
+		CB896C2C24DFC35C00E192A0 /* 226. 翻转二叉树.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "226. 翻转二叉树.h"; sourceTree = "<group>"; };
+		CB896C2D24DFCCDC00E192A0 /* 236. 二叉树的最近公共祖先.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "236. 二叉树的最近公共祖先.h"; sourceTree = "<group>"; };
+		CB896C2E24DFD2A300E192A0 /* 257. 二叉树的所有路径****.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "257. 二叉树的所有路径****.h"; sourceTree = "<group>"; };
+		CB896C2F24DFD2F800E192A0 /* 297. 二叉树的序列化与反序列化.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "297. 二叉树的序列化与反序列化.h"; sourceTree = "<group>"; };
+		CB896C3024DFE29B00E192A0 /* 23. 合并K个排序链表.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "23. 合并K个排序链表.h"; sourceTree = "<group>"; };
+		CB896C3124DFEE7C00E192A0 /* 25. K 个一组翻转链表.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "25. K 个一组翻转链表.h"; sourceTree = "<group>"; };
+		CB896C3224DFF83D00E192A0 /* 83. 删除排序链表中的重复元素.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "83. 删除排序链表中的重复元素.h"; sourceTree = "<group>"; };
+		CBB95D3822EC741F001FA3CB /* TestOne */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TestOne; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBB95D3B22EC741F001FA3CB /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		CBE670E7232787980042CFB8 /* 1二分搜索V.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "1二分搜索V.h"; sourceTree = "<group>"; };
+		CBE670E8232B4EB70042CFB8 /* 2快速排序V.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "2快速排序V.h"; sourceTree = "<group>"; };
+		CBE670E9232D2B200042CFB8 /* 3归并排序.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "3归并排序.h"; sourceTree = "<group>"; };
+		CBE670EA232F17560042CFB8 /* 4冒泡排序V.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "4冒泡排序V.h"; sourceTree = "<group>"; };
+		CBE670EB232F1A810042CFB8 /* 5选择排序V.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "5选择排序V.h"; sourceTree = "<group>"; };
+		CBE670EC232F1F020042CFB8 /* 6堆排序.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "6堆排序.h"; sourceTree = "<group>"; };
+		CBE670ED232F29C40042CFB8 /* 7希尔排序.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "7希尔排序.h"; sourceTree = "<group>"; };
+		CBE670EE232F2F5B0042CFB8 /* 8插入排序.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "8插入排序.h"; sourceTree = "<group>"; };
+		CBE9810A24CAACE80006B411 /* 662设计环形队列.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "662设计环形队列.h"; sourceTree = "<group>"; };
+		CBE9810B24CBE6F80006B411 /* 26、删除排序数组中的重复项.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "26、删除排序数组中的重复项.h"; sourceTree = "<group>"; };
+		CBE9810C24CBEB030006B411 /* 80. 删除排序数组中的重复项 II.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "80. 删除排序数组中的重复项 II.h"; sourceTree = "<group>"; };
+		CBE9810F24CC1B8B0006B411 /* 字符串去空格.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "字符串去空格.h"; sourceTree = "<group>"; };
+		CBE9811024CC200F0006B411 /* 找出数组中比左边的大比右边的小的元素.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "找出数组中比左边的大比右边的小的元素.h"; sourceTree = "<group>"; };
+		CBE9811124CC23270006B411 /* 寻找数组中的最大值和最小值.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "寻找数组中的最大值和最小值.h"; sourceTree = "<group>"; };
+		CBE9811324CC33770006B411 /* 扫雷.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "扫雷.h"; sourceTree = "<group>"; };
+		CBE9811424CC34B20006B411 /* memcpy手写实现.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "memcpy手写实现.h"; sourceTree = "<group>"; };
+		CBE9811924D05BD10006B411 /* 3. 无重复字符的最长子串.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "3. 无重复字符的最长子串.h"; sourceTree = "<group>"; };
+		CBE9811A24D12D2E0006B411 /* 4. 寻找两个正序数组的中位数.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "4. 寻找两个正序数组的中位数.h"; sourceTree = "<group>"; };
+		CBE9811B24D13D9E0006B411 /* 6. Z 字形变换.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "6. Z 字形变换.h"; sourceTree = "<group>"; };
+		CBE9811C24D13DC00006B411 /* 7. 整数反转.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "7. 整数反转.h"; sourceTree = "<group>"; };
+		CBE9811D24D13E860006B411 /* 8. 字符串转换整数 (atoi).h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "8. 字符串转换整数 (atoi).h"; sourceTree = "<group>"; };
+		CBE9811E24D152010006B411 /* 9. 回文数.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "9. 回文数.h"; sourceTree = "<group>"; };
+		CBE9811F24D161EE0006B411 /* 11. 盛最多水的容器.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "11. 盛最多水的容器.h"; sourceTree = "<group>"; };
+		CBE9812024D162150006B411 /* 12. 整数转罗马数字.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "12. 整数转罗马数字.h"; sourceTree = "<group>"; };
+		CBE9812124D1997D0006B411 /* 13. 罗马数字转整数.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "13. 罗马数字转整数.h"; sourceTree = "<group>"; };
+		CBE9812224D19A9B0006B411 /* 14. 最长公共前缀.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "14. 最长公共前缀.h"; sourceTree = "<group>"; };
+		CBE9812324D19DE20006B411 /* 15. 三数之和.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "15. 三数之和.h"; sourceTree = "<group>"; };
+		CBE9812424D1AA8F0006B411 /* 16. 最接近的三数之和.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "16. 最接近的三数之和.h"; sourceTree = "<group>"; };
+		CBE9812524D1B6040006B411 /* 17. 电话号码的字母组合.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "17. 电话号码的字母组合.h"; sourceTree = "<group>"; };
+		CBE9812624D1B6370006B411 /* 19. 删除链表的倒数第N个节点.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "19. 删除链表的倒数第N个节点.h"; sourceTree = "<group>"; };
+		CBE9812724D1C2AB0006B411 /* 21. 合并两个有序链表.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "21. 合并两个有序链表.h"; sourceTree = "<group>"; };
+		CBE9812824D2557B0006B411 /* 24. 两两交换链表中的节点.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "24. 两两交换链表中的节点.h"; sourceTree = "<group>"; };
+		CBE9812924D26BF30006B411 /* 27. 移除元素.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "27. 移除元素.h"; sourceTree = "<group>"; };
+		CBE9812A24D26C140006B411 /* 28. 实现 strStr().h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "28. 实现 strStr().h"; sourceTree = "<group>"; };
+		CBE9812B24D285E50006B411 /* 31. 下一个排列.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "31. 下一个排列.h"; sourceTree = "<group>"; };
+		CBE9812C24D293DE0006B411 /* 33. 搜索旋转排序数组.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "33. 搜索旋转排序数组.h"; sourceTree = "<group>"; };
+		CBE9812D24D2ACD60006B411 /* 34. 在排序数组中查找元素的第一个和最后一个位置.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "34. 在排序数组中查找元素的第一个和最后一个位置.h"; sourceTree = "<group>"; };
+		CBE9812E24D2B1250006B411 /* 35. 搜索插入位置.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "35. 搜索插入位置.h"; sourceTree = "<group>"; };
+		CBE9812F24D2B7BE0006B411 /* 36. 有效的数独.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "36. 有效的数独.h"; sourceTree = "<group>"; };
+		CBE9813024D47CF80006B411 /* 38. 外观数列.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "38. 外观数列.h"; sourceTree = "<group>"; };
+		CBE9813124D4E7020006B411 /* 39. 组合总和.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "39. 组合总和.h"; sourceTree = "<group>"; };
+		CBE9813224D4EE130006B411 /* 40. 组合总和 II.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "40. 组合总和 II.h"; sourceTree = "<group>"; };
+		CBE9813324D4F8EA0006B411 /* 41. 缺失的第一个正数.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "41. 缺失的第一个正数.h"; sourceTree = "<group>"; };
+		CBE9813424D54F730006B411 /* 43. 字符串相乘.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "43. 字符串相乘.h"; sourceTree = "<group>"; };
+		CBE9813524D560AE0006B411 /* 46. 全排列.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "46. 全排列.h"; sourceTree = "<group>"; };
+		CBF22A7C24869C770012C1EF /* <位运算>9判断是否是奇数.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "<位运算>9判断是否是奇数.h"; sourceTree = "<group>"; };
+		CBF22A7D24869E1A0012C1EF /* <位运算>6自然数中0的个数.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "<位运算>6自然数中0的个数.h"; sourceTree = "<group>"; };
+		CBF22A7E2486A3770012C1EF /* <位运算>7自然数中1的个数.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "<位运算>7自然数中1的个数.h"; sourceTree = "<group>"; };
+		CBF22A7F2486A52D0012C1EF /* <位运算>8只出现了一次的元素2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "<位运算>8只出现了一次的元素2.h"; sourceTree = "<group>"; };
+		CBF22A802487F6650012C1EF /* <位运算>4两个只出现一次的数字.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "<位运算>4两个只出现一次的数字.h"; sourceTree = "<group>"; };
+		CBF22A812487F8CB0012C1EF /* <位运算>5只出现了一次的元素1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "<位运算>5只出现了一次的元素1.h"; sourceTree = "<group>"; };
+		CBF22A822487FAC60012C1EF /* <位运算>2是否是2的N次幂.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "<位运算>2是否是2的N次幂.h"; sourceTree = "<group>"; };
+		CBF22A8324889FE50012C1EF /* <位运算>3大于等于它的最近的2次幂的数.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "<位运算>3大于等于它的最近的2次幂的数.h"; sourceTree = "<group>"; };
+		CBF22A842488ABE90012C1EF /* <位运算>1不使用加减法实现两个整数相加.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "<位运算>1不使用加减法实现两个整数相加.h"; sourceTree = "<group>"; };
+		CBF22A85249613660012C1EF /* 1二维数组中的查找.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "1二维数组中的查找.h"; sourceTree = "<group>"; };
+		CBF22A86249618650012C1EF /* 2替换空格.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "2替换空格.h"; sourceTree = "<group>"; };
+		CBF22A87249622300012C1EF /* 3从尾到头打印链表.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "3从尾到头打印链表.h"; sourceTree = "<group>"; };
+		CBF22A8824964C7A0012C1EF /* 4重建二叉树.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "4重建二叉树.h"; sourceTree = "<group>"; };
+		CBF22A89249660800012C1EF /* 5两个栈实现队列.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "5两个栈实现队列.h"; sourceTree = "<group>"; };
+		CBF22A8A249660FE0012C1EF /* 6旋转数组的最小数字.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "6旋转数组的最小数字.h"; sourceTree = "<group>"; };
+		CBF22A8B24972C800012C1EF /* 7,8,9,10斐波那契数列.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "7,8,9,10斐波那契数列.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CBB95D3522EC741F001FA3CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CB6DC34A24D7F103009D3318 /* 算法 */ = {
+			isa = PBXGroup;
+			children = (
+				CBE9811824D05B680006B411 /* 位运算专题 */,
+				CBE9811724D05B5B0006B411 /* 排序专题 */,
+				CBE9811624D05B270006B411 /* Leecode专题 */,
+				CBE9811524D05AFD0006B411 /* 剑指Offer专题 */,
+			);
+			path = "算法";
+			sourceTree = "<group>";
+		};
+		CBB95D2F22EC741F001FA3CB = {
+			isa = PBXGroup;
+			children = (
+				CBB95D3A22EC741F001FA3CB /* TestOne */,
+				CBB95D3922EC741F001FA3CB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CBB95D3922EC741F001FA3CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CBB95D3822EC741F001FA3CB /* TestOne */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CBB95D3A22EC741F001FA3CB /* TestOne */ = {
+			isa = PBXGroup;
+			children = (
+				CB6DC34A24D7F103009D3318 /* 算法 */,
+				CBB95D3B22EC741F001FA3CB /* main.cpp */,
+				CBE9810F24CC1B8B0006B411 /* 字符串去空格.h */,
+				CBE9811024CC200F0006B411 /* 找出数组中比左边的大比右边的小的元素.h */,
+				CBE9811124CC23270006B411 /* 寻找数组中的最大值和最小值.h */,
+				CBE9811324CC33770006B411 /* 扫雷.h */,
+				CBE9811424CC34B20006B411 /* memcpy手写实现.h */,
+				CB0DFECF2339B97600F5CDDF /* 由前序遍历和中序遍历构造二叉树.h */,
+				CB0DFED02339F16200F5CDDF /* MaxArea.h */,
+				CB0DFED6233C8D6D00F5CDDF /*  买卖股票的最佳时机1.h */,
+				CB0DFED7233CA02E00F5CDDF /*  买卖股票的最佳时机2.h */,
+				CB0DFED8233DA76C00F5CDDF /*  买卖股票的最佳时机3.h */,
+				CB6DC36124DC369C009D3318 /* 实现hash函数.h */,
+			);
+			path = TestOne;
+			sourceTree = "<group>";
+		};
+		CBE9811524D05AFD0006B411 /* 剑指Offer专题 */ = {
+			isa = PBXGroup;
+			children = (
+				CBF22A85249613660012C1EF /* 1二维数组中的查找.h */,
+				CBF22A86249618650012C1EF /* 2替换空格.h */,
+				CBF22A87249622300012C1EF /* 3从尾到头打印链表.h */,
+				CBF22A8824964C7A0012C1EF /* 4重建二叉树.h */,
+				CBF22A89249660800012C1EF /* 5两个栈实现队列.h */,
+				CBF22A8A249660FE0012C1EF /* 6旋转数组的最小数字.h */,
+				CBF22A8B24972C800012C1EF /* 7,8,9,10斐波那契数列.h */,
+				CB4F774A2498F3A400B31990 /* 11二进制中1的个数.h */,
+				CB4F774B2498FAF400B31990 /* 12数值的整数次方.h */,
+				CB4F774C2498FEB000B31990 /* 13调整数组顺序使奇数位于偶数前面.h */,
+				CB4F774D2498FFEF00B31990 /* 14链表中倒数第k个结点.h */,
+				CB4F774E2499048400B31990 /* 15反转链表.h */,
+				CB4F774F24990F6200B31990 /* 16合并两个排序的链表.h */,
+				CB4F7750249913F800B31990 /* 17树的子结构.h */,
+				CB4F77512499189F00B31990 /* 18二叉树的镜像.h */,
+				CB4F775224991C0600B31990 /* 19顺时针打印矩阵.h */,
+				CB4F77532499249D00B31990 /* 20包含min函数的栈.h */,
+				CB4F77542499276D00B31990 /* 21栈的压入、弹出序列.h */,
+				CB4F77552499C71000B31990 /* 22从上往下打印二叉树.h */,
+				CB4F77562499D1F100B31990 /* 23从上到下打印二叉树 II.h */,
+				CB4F77572499D81700B31990 /* 24从上到下打印二叉树 III.h */,
+				CB4F77582499DE9C00B31990 /* 25二叉搜索树的后序遍历序列.h */,
+				CB4F77592499FDEA00B31990 /* 26二叉树中和为某一值的路径.h */,
+				CB4F775A249A0AA400B31990 /* 27数组中出现次数超过一半的数字.h */,
+				CB4F775B249A0E8500B31990 /* 28连续子数组的最大和.h */,
+				CB4F775C249A498800B31990 /* 29丑数.h */,
+				CB4F775D249B35B500B31990 /* 30两个链表的第一个公共结点.h */,
+				CB4F775E249B3B6E00B31990 /* 31二叉树的深度.h */,
+				CB4F775F249B42C600B31990 /* 32平衡二叉树.h */,
+				CB4F7760249B444000B31990 /* 33数组中只出现一次的数字.h */,
+				CB4F7761249B4E1500B31990 /* 34和为S的连续正数序列.h */,
+				CB4F7762249B559100B31990 /* 35和为S的两个数字.h */,
+				CB4F7763249B5F4900B31990 /* 36左旋转字符串.h */,
+				CB4F7764249B691900B31990 /* 37翻转单词顺序列.h */,
+				CB4F7765249B6BD400B31990 /* 38不用加减乘除做加法.h */,
+				CB4F7766249B708700B31990 /* 39数组中重复的数字.h */,
+				CB4F7767249B90E800B31990 /* 40链表中环的入口结点.h */,
+				CB4F7768249BA79700B31990 /* 41二叉树的下一个结点.h */,
+				CB4F7769249BAB5200B31990 /* 42对称的二叉树.h */,
+				CB4F776A249C74B700B31990 /* 43最小的K个数.h */,
+				CB4F776B249CAB6900B31990 /* 44删除链表中重复的结点.h */,
+				CB4F776C249CC01200B31990 /* 45字符流中第一个不重复的字符.h */,
+				CB4F776D249CC63600B31990 /* 46第一个只出现一次的字符.h */,
+				CB4F776E249CDA2A00B31990 /* 47把数组排成最小的数.h */,
+				CB4F776F249CE2CE00B31990 /* 48把字符串转换成整数.h */,
+				CB4F7770249CE92800B31990 /* 49求1+2+3+...+n.h */,
+				CB4F7771249CE9FF00B31990 /* 50二叉搜索树的第k个结点***.h */,
+				CB4F7772249D069400B31990 /* 51构建乘积数组.h */,
+				CB4F7773249DB36B00B31990 /* 52扑克牌顺子.h */,
+				CB4F7774249DBE1F00B31990 /* 53约瑟夫环问题.h */,
+				CB4F7775249DDB0400B31990 /* 54滑动窗口的最大值.h */,
+				CB4F7776249DE6A000B31990 /* 55剪绳子.h */,
+				CB4F7777249DF39700B31990 /* 56矩阵中的路径(回溯法)***.h */,
+				CB4F780724A3690300B31990 /* 57复杂链表的复制.h */,
+				CB4F780824A3727500B31990 /* 58二叉搜索树与双向链表---***.h */,
+				CB4F780924A393D000B31990 /* 59数字在排序数组中出现的次数.h */,
+				CB4F780A24A39CD700B31990 /* 60机器人的运动范围.h */,
+				CB4F780B24A3A68400B31990 /* 61数据流中的中位数.h */,
+				CB0EE3B624ACD82A0035D8BD /* 62把一个字符串转换成整数.h */,
+				CB0EE3B724ACDF8A0035D8BD /* 63设计一个单例.h */,
+				CB44377624C3F80A00F3C97D /* 64. 最长不含重复字符的子字符串----.h */,
+				CB44377724C4107F00F3C97D /*  65队列的最大值.h */,
+			);
+			path = "剑指Offer专题";
+			sourceTree = "<group>";
+		};
+		CBE9811624D05B270006B411 /* Leecode专题 */ = {
+			isa = PBXGroup;
+			children = (
+				CB6DC35024D94E4B009D3318 /* 2. 两数相加.h */,
+				CBE9811924D05BD10006B411 /* 3. 无重复字符的最长子串.h */,
+				CBE9811A24D12D2E0006B411 /* 4. 寻找两个正序数组的中位数.h */,
+				CB4F781024A79AF500B31990 /* 5. 最长回文子串(leecode).h */,
+				CBE9811B24D13D9E0006B411 /* 6. Z 字形变换.h */,
+				CBE9811C24D13DC00006B411 /* 7. 整数反转.h */,
+				CBE9811D24D13E860006B411 /* 8. 字符串转换整数 (atoi).h */,
+				CBE9811E24D152010006B411 /* 9. 回文数.h */,
+				CBE9811F24D161EE0006B411 /* 11. 盛最多水的容器.h */,
+				CBE9812024D162150006B411 /* 12. 整数转罗马数字.h */,
+				CBE9812124D1997D0006B411 /* 13. 罗马数字转整数.h */,
+				CBE9812224D19A9B0006B411 /* 14. 最长公共前缀.h */,
+				CBE9812324D19DE20006B411 /* 15. 三数之和.h */,
+				CBE9812424D1AA8F0006B411 /* 16. 最接近的三数之和.h */,
+				CBE9812524D1B6040006B411 /* 17. 电话号码的字母组合.h */,
+				CBE9812624D1B6370006B411 /* 19. 删除链表的倒数第N个节点.h */,
+				CB4F781224A7ACD200B31990 /* 20. 有效的括号(leecode).h */,
+				CBE9812724D1C2AB0006B411 /* 21. 合并两个有序链表.h */,
+				CB896C3024DFE29B00E192A0 /* 23. 合并K个排序链表.h */,
+				CBE9812824D2557B0006B411 /* 24. 两两交换链表中的节点.h */,
+				CB896C3124DFEE7C00E192A0 /* 25. K 个一组翻转链表.h */,
+				CBE9810B24CBE6F80006B411 /* 26、删除排序数组中的重复项.h */,
+				CBE9812924D26BF30006B411 /* 27. 移除元素.h */,
+				CBE9812A24D26C140006B411 /* 28. 实现 strStr().h */,
+				CBE9812B24D285E50006B411 /* 31. 下一个排列.h */,
+				CBE9812C24D293DE0006B411 /* 33. 搜索旋转排序数组.h */,
+				CBE9812D24D2ACD60006B411 /* 34. 在排序数组中查找元素的第一个和最后一个位置.h */,
+				CBE9812E24D2B1250006B411 /* 35. 搜索插入位置.h */,
+				CBE9812F24D2B7BE0006B411 /* 36. 有效的数独.h */,
+				CBE9813024D47CF80006B411 /* 38. 外观数列.h */,
+				CBE9813124D4E7020006B411 /* 39. 组合总和.h */,
+				CBE9813224D4EE130006B411 /* 40. 组合总和 II.h */,
+				CBE9813324D4F8EA0006B411 /* 41. 缺失的第一个正数.h */,
+				CBE9813424D54F730006B411 /* 43. 字符串相乘.h */,
+				CBE9813524D560AE0006B411 /* 46. 全排列.h */,
+				CB0EE3AC24A874250035D8BD /* 53. 最大子序和.h */,
+				CB4F781324A82D4900B31990 /* 62. 机器人的不同路径.h */,
+				CB4F781424A8350600B31990 /* 64. 最小路径和.h */,
+				CB6DC35D24DA6867009D3318 /* 66. 加一.h */,
+				CB6DC35E24DA712C009D3318 /* 67. 二进制求和.h */,
+				CB6DC35F24DA72E3009D3318 /* 69. x 的平方根.h */,
+				CB0EE3A824A846F50035D8BD /* 72. 编辑距离.h */,
+				CBE9810C24CBEB030006B411 /* 80. 删除排序数组中的重复项 II.h */,
+				CB896C3224DFF83D00E192A0 /* 83. 删除排序链表中的重复元素.h */,
+				CB6DC36B24DEF4AC009D3318 /* 101. 对称二叉树.h */,
+				CB6DC36A24DEF494009D3318 /* 102. 二叉树的层序遍历.h */,
+				CB6DC36924DEF47E009D3318 /* 103. 二叉树的锯齿形层次遍历.h */,
+				CB6DC36824DEF467009D3318 /* 104. 二叉树的最大深度.h */,
+				CB6DC36724DEF459009D3318 /* 105. 从前序与中序遍历序列构造二叉树.h */,
+				CB6DC36624DEF442009D3318 /* 106. 从中序与后序遍历序列构造二叉树.h */,
+				CB6DC36524DEF42E009D3318 /* 107. 二叉树的层次遍历 II.h */,
+				CB6DC36424DEF2F6009D3318 /* 108. 将有序数组转换为二叉搜索树.h */,
+				CB6DC36324DEF258009D3318 /* 109. 有序链表转换二叉搜索树.h */,
+				CB6DC35C24DA5909009D3318 /* 110. 平衡二叉树.h */,
+				CB6DC36C24DEF6C4009D3318 /* 111. 二叉树的最小深度.h */,
+				CB6DC36D24DEF9B4009D3318 /* 112. 路径总和.h */,
+				CB6DC36E24DF0669009D3318 /* 113. 路径总和 II.h */,
+				CB896C2924DF95F800E192A0 /* 114. 二叉树展开为链表.h */,
+				CB0EE3B324AA213A0035D8BD /* 121. 买卖股票的最佳时机.h */,
+				CB0EE3B424AA28A90035D8BD /* 122. 买卖股票的最佳时机 II.h */,
+				CB0EE3B524AA2D170035D8BD /* 123. 买卖股票的最佳时机 III.h */,
+				CB896C2A24DF9D6800E192A0 /* 144. 二叉树的前序遍历.h */,
+				CB896C2B24DF9F6000E192A0 /* 145. 二叉树的后序遍历.h */,
+				CB68BD9824C837560041FB89 /* 146 LRU缓存机制.h */,
+				CB0DFEDA2340848600F5CDDF /* 150. 逆波兰表达式求值.h */,
+				CB6DC35B24D9AE1A009D3318 /* 153. 寻找旋转排序数组中的最小值(重点问题).h */,
+				CB6DC35A24D9AB47009D3318 /* 160. 相交链表.h */,
+				CB6DC35924D9AB11009D3318 /* 162. 寻找峰值.h */,
+				CB6DC35824D9A710009D3318 /* 165. 比较版本号.h */,
+				CB6DC35724D99F60009D3318 /* 168. Excel表列名称.h */,
+				CB6DC35624D99EE0009D3318 /* 171. Excel表列序号.h */,
+				CB6DC35524D99ABE009D3318 /* 172. 阶乘后的零.h */,
+				CB6DC35424D99804009D3318 /* 179. 最大数.h */,
+				CB6DC35324D997A5009D3318 /* 187. 重复的DNA序列.h */,
+				CB6DC35224D9950C009D3318 /* 189. 旋转数组.h */,
+				CB0EE3A924A848600035D8BD /* 198. 打家劫舍.h */,
+				CB6DC35124D98729009D3318 /* 199. 二叉树的右视图.h */,
+				CB6DC36024DAD8E4009D3318 /* 206. 反转链表.h */,
+				CB0EE3AA24A8565F0035D8BD /* 213. 打家劫舍 II.h */,
+				CB0EE3AE24A894770035D8BD /* 221. 最大正方形.h */,
+				CB896C2C24DFC35C00E192A0 /* 226. 翻转二叉树.h */,
+				CB896C2D24DFCCDC00E192A0 /* 236. 二叉树的最近公共祖先.h */,
+				CB896C2E24DFD2A300E192A0 /* 257. 二叉树的所有路径****.h */,
+				CB896C2F24DFD2F800E192A0 /* 297. 二叉树的序列化与反序列化.h */,
+				CB0EE3AD24A888E30035D8BD /* 322. 零钱兑换.h */,
+				CB0EE3AB24A85C060035D8BD /* 337. 打家劫舍 III.h */,
+				CB0EE3B024A9F6000035D8BD /* 441. 排列硬币.h */,
+				CB0EE3AF24A9EBD90035D8BD /* 475. 供暖器.h */,
+				CB0EE3B124AA14A60035D8BD /* 349. 两个数组的交集.h */,
+				CB0EE3B224AA1B180035D8BD /* 350. 两个数组的交集 II.h */,
+				CB6DC36224DE88BE009D3318 /* 529. 扫雷游戏.h */,
+				CBE9810A24CAACE80006B411 /* 662设计环形队列.h */,
+			);
+			path = "Leecode专题";
+			sourceTree = "<group>";
+		};
+		CBE9811724D05B5B0006B411 /* 排序专题 */ = {
+			isa = PBXGroup;
+			children = (
+				CBE670E7232787980042CFB8 /* 1二分搜索V.h */,
+				CBE670E8232B4EB70042CFB8 /* 2快速排序V.h */,
+				CBE670E9232D2B200042CFB8 /* 3归并排序.h */,
+				CBE670EA232F17560042CFB8 /* 4冒泡排序V.h */,
+				CBE670EB232F1A810042CFB8 /* 5选择排序V.h */,
+				CBE670EC232F1F020042CFB8 /* 6堆排序.h */,
+				CBE670ED232F29C40042CFB8 /* 7希尔排序.h */,
+				CBE670EE232F2F5B0042CFB8 /* 8插入排序.h */,
+			);
+			path = "排序专题";
+			sourceTree = "<group>";
+		};
+		CBE9811824D05B680006B411 /* 位运算专题 */ = {
+			isa = PBXGroup;
+			children = (
+				CBF22A842488ABE90012C1EF /* <位运算>1不使用加减法实现两个整数相加.h */,
+				CBF22A822487FAC60012C1EF /* <位运算>2是否是2的N次幂.h */,
+				CBF22A8324889FE50012C1EF /* <位运算>3大于等于它的最近的2次幂的数.h */,
+				CBF22A802487F6650012C1EF /* <位运算>4两个只出现一次的数字.h */,
+				CBF22A812487F8CB0012C1EF /* <位运算>5只出现了一次的元素1.h */,
+				CBF22A7D24869E1A0012C1EF /* <位运算>6自然数中0的个数.h */,
+				CBF22A7E2486A3770012C1EF /* <位运算>7自然数中1的个数.h */,
+				CBF22A7F2486A52D0012C1EF /* <位运算>8只出现了一次的元素2.h */,
+				CBF22A7C24869C770012C1EF /* <位运算>9判断是否是奇数.h */,
+				CB4F780F24A63E6E00B31990 /* <位运算>m的n次方.h */,
+			);
+			path = "位运算专题";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CBB95D3722EC741F001FA3CB /* TestOne */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBB95D3F22EC741F001FA3CB /* Build configuration list for PBXNativeTarget "TestOne" */;
+			buildPhases = (
+				CBB95D3422EC741F001FA3CB /* Sources */,
+				CBB95D3522EC741F001FA3CB /* Frameworks */,
+				CBB95D3622EC741F001FA3CB /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestOne;
+			productName = TestOne;
+			productReference = CBB95D3822EC741F001FA3CB /* TestOne */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CBB95D3022EC741F001FA3CB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = sculg;
+				TargetAttributes = {
+					CBB95D3722EC741F001FA3CB = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = CBB95D3322EC741F001FA3CB /* Build configuration list for PBXProject "TestOne" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CBB95D2F22EC741F001FA3CB;
+			productRefGroup = CBB95D3922EC741F001FA3CB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CBB95D3722EC741F001FA3CB /* TestOne */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CBB95D3422EC741F001FA3CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBB95D3C22EC741F001FA3CB /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CBB95D3D22EC741F001FA3CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		CBB95D3E22EC741F001FA3CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		CBB95D4022EC741F001FA3CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WARNING_CFLAGS = "-Wno-shorten-64-to-32";
+			};
+			name = Debug;
+		};
+		CBB95D4122EC741F001FA3CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WARNING_CFLAGS = "-Wno-shorten-64-to-32";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CBB95D3322EC741F001FA3CB /* Build configuration list for PBXProject "TestOne" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBB95D3D22EC741F001FA3CB /* Debug */,
+				CBB95D3E22EC741F001FA3CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CBB95D3F22EC741F001FA3CB /* Build configuration list for PBXNativeTarget "TestOne" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBB95D4022EC741F001FA3CB /* Debug */,
+				CBB95D4122EC741F001FA3CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CBB95D3022EC741F001FA3CB /* Project object */;
+}
