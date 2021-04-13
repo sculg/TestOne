@@ -45,6 +45,11 @@
 		CB0EE3B524AA2D170035D8BD /* 123. 买卖股票的最佳时机 III.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "123. 买卖股票的最佳时机 III.h"; sourceTree = "<group>"; };
 		CB0EE3B624ACD82A0035D8BD /* 62把一个字符串转换成整数.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "62把一个字符串转换成整数.h"; sourceTree = "<group>"; };
 		CB0EE3B724ACDF8A0035D8BD /* 63设计一个单例.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "63设计一个单例.h"; sourceTree = "<group>"; };
+		CB2AA5782625D264008D1494 /* 最长公共子串.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "最长公共子串.h"; sourceTree = "<group>"; };
+		CB2AA5792625D2ED008D1494 /* 最长回文子串.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "最长回文子串.h"; sourceTree = "<group>"; };
+		CB2AA57A2625D322008D1494 /* 矩阵的最小路径和.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "矩阵的最小路径和.h"; sourceTree = "<group>"; };
+		CB2AA57B2625D379008D1494 /* 最长公共子序列.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "最长公共子序列.h"; sourceTree = "<group>"; };
+		CB2AA57C2625EEEB008D1494 /* 最小编辑代价.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "最小编辑代价.h"; sourceTree = "<group>"; };
 		CB44377624C3F80A00F3C97D /* 64. 最长不含重复字符的子字符串----.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "64. 最长不含重复字符的子字符串----.h"; sourceTree = "<group>"; };
 		CB44377724C4107F00F3C97D /*  65队列的最大值.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = " 65队列的最大值.h"; sourceTree = "<group>"; };
 		CB4F774A2498F3A400B31990 /* 11二进制中1的个数.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "11二进制中1的个数.h"; sourceTree = "<group>"; };
@@ -221,9 +226,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CB2AA5772625D238008D1494 /* 牛客网常考 */ = {
+			isa = PBXGroup;
+			children = (
+				CB2AA57D2625EF69008D1494 /* 动态规划 */,
+			);
+			path = "牛客网常考";
+			sourceTree = "<group>";
+		};
+		CB2AA57D2625EF69008D1494 /* 动态规划 */ = {
+			isa = PBXGroup;
+			children = (
+				CB2AA5782625D264008D1494 /* 最长公共子串.h */,
+				CB2AA5792625D2ED008D1494 /* 最长回文子串.h */,
+				CB2AA57A2625D322008D1494 /* 矩阵的最小路径和.h */,
+				CB2AA57B2625D379008D1494 /* 最长公共子序列.h */,
+				CB2AA57C2625EEEB008D1494 /* 最小编辑代价.h */,
+			);
+			path = "动态规划";
+			sourceTree = "<group>";
+		};
 		CB6DC34A24D7F103009D3318 /* 算法 */ = {
 			isa = PBXGroup;
 			children = (
+				CB2AA5772625D238008D1494 /* 牛客网常考 */,
 				CBE9811824D05B680006B411 /* 位运算专题 */,
 				CBE9811724D05B5B0006B411 /* 排序专题 */,
 				CBE9811624D05B270006B411 /* Leecode专题 */,
